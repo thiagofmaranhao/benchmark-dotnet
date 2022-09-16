@@ -1,9 +1,6 @@
-using System;
+namespace LinqToLookupToDict_ForEach_For.Entities;
 
-namespace LinqToLookupToDict_ForEach_For.Entities
+public class EntityLevel4
 {
-    public class EntityLevel4
-    {
-        public Guid Key { get; set; }
-    }
+    public Guid Key { get; set; }
 }

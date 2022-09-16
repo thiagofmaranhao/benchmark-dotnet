@@ -1,13 +1,6 @@
-﻿using System;
-using BenchmarkDotNet.Running;
+﻿// See https://aka.ms/new-console-template for more information
 
-namespace LinqToLookupToDict_ForEach_For
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            BenchmarkRunner.Run<GenerateDictKeyEntityLev4ValuesKeyEntityLevel1Benchmarks>();
-        }
-    }
-}
+using BenchmarkDotNet.Running;
+using LinqToLookupToDict_ForEach_For;
+
+BenchmarkRunner.Run<GenerateDictKeyEntityLev4ValuesKeyEntityLevel1Benchmarks>();

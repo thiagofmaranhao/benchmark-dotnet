@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using LinqToLookupToDict_ForEach_For.Entities;
 
-namespace LinqToLookupToDict_ForEach_For
-{
-    public class GenerateDictKeyEntityLev4ValuesKeyEntityLevel1
+namespace LinqToLookupToDict_ForEach_For;
+
+public class GenerateDictKeyEntityLev4ValuesKeyEntityLevel1
     {
         public Dictionary<Guid, IList<Guid>> GenerateWithLinqToLookupToDictionary(IEnumerable<EntityLevel1> entitiesLevel1)
         {
@@ -105,4 +102,3 @@ namespace LinqToLookupToDict_ForEach_For
             return dictionary;
         }
     }
-}
